@@ -1,0 +1,114 @@
+.titulo {
+    height: 100px;
+    width: 100%;
+    background-color: chocolate;
+    display:flex;
+}
+
+.logo {
+    height: 80px;
+    width: 80px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+#foto {
+    height: 150px;
+    width: 150px;
+}
+
+.libro {
+    height: 80px;
+    width: 150px;
+    margin-left: 80px;
+    font-size: 30px;
+    display: flex;
+    justify-content:center;
+    align-items: center
+}
+
+.padre{
+    border: 1px solid black;
+    height: 470px;
+    width: 370px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding-left: 45px;
+    padding-top: 10px;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+
+#nombre {
+    width: 280px;
+    height: 40px;
+    
+    font-size: 17px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+#apellidos {
+    width: 280px;
+    height: 40px;
+    
+    font-size: 17px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+#correo {
+    width: 280px;
+    height: 40px;
+  
+    font-size: 17px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+#dup_correo {
+    width: 280px;
+    height: 10px;
+    
+    font-size: 17px;
+    margin-top: 7px;
+}
+
+#pass {
+    width: 280px;
+    height: 40px;
+    
+    font-size: 17px;
+    margin-top: 13px;
+    border-radius: 5px;
+}
+
+#rol {
+    width: 280px;
+    height: 35px;
+   
+    font-size: 15px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+#boton {
+    width: 200px;
+    height: 40px;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+#lleno {
+    width: 280px;
+    height: 30px;
+    font-size: 20px;
+    /*border: 1px solid black;*/
+    margin-top: 10px;
+    text-align: center;
+}
