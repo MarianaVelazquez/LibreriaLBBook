@@ -1,0 +1,48 @@
+.navbar {
+    background-color: #eda011;
+  }
+
+#card{
+    margin: 50px;
+    padding: 15px;
+}
+
+#information {
+    text-align: right;
+}
+
+.card-container {
+    margin: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+  
+.card {
+    width: calc(22% - 0.5rem);
+  }
+  
+  .sinopsis {
+    margin: 50px;
+    width: calc(50% - 0.5rem);
+    text-align: justify;
+  }
+
+  .price {
+    margin: 10px;
+    text-align: center;
+  }
+
+  .btn{
+    padding-bottom: 5px;
+    background-color: #eda011;
+    border-color: #eda035;
+
+  }
+
+
+  .d-flex{
+    position: fixed;
+  }
+  
+  
