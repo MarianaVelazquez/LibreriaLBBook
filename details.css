@@ -1,48 +1,161 @@
-.navbar {
-    background-color: #eda011;
-  }
+
+#tabla{
+  height: 1000px;
+  width: 1300px;
+  
+
+}
+#arriba{
+  height: 130px;
+  width: 1300px;
+
+  background-color: chocolate;
+  
+  
+}
+#izquierda{
+  height: 1000px;
+  width: 150px;
+
+  float: left;
+  background-color: chocolate;
+}
+
+.madre {
+  height: 130px;
+  width: 1150px;
+
+  margin-left: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulo {
+  height: 130px;
+  width: 200px;
+
+  margin-left: 0px;
+  font-size: 40px;
+  margin-top: 20px;
+
+}
+
+.usuario {
+  height: 130px;
+  width: 200px;
+  margin-left: 300px;
+  font-size: 40px;
+  margin-left: 750px;
+  margin-top: 60px;
+}
+
+.logo {
+  height: 130px;
+  width: 150px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.libro{
+  height: 150px;
+  width: 150px;
+}
+
+
+.padrastro {
+  height: 868px;
+  width: 1145px;
+  border: 1px solid black;
+  margin-left: 150px;
+}
+
+.awebo {
+  width: 1145px;
+  height: 434px;
+
+  display: flex;
+  justify-content:space-between ;
+  align-items: center;
+}
+
+.libro1 {
+  height: 370px;
+  width: 300px;
+  margin-left: 30px;
+  border: 1px solid black;
+}
+
+.foto1 {
+  height: 300px;
+  width: 300px;
+  border: 1px solid black;
+
+}
+
+#f1 {
+  height: 300px;
+  width: 300px;
+  margin-top: 0;
+  
+}
+
+.nombre1 {
+  text-align: center;
+  font-size: 25px;
+}
+
+.libro2 {
+  height: 370px;
+  width: 300px;
+  border: 1px solid black;
+}
+
+.libro3 {
+  height: 370px;
+  width: 300px;
+  border:1px solid black;
+  margin-right: 30px;
+}
+
+
+.awebo2 {
+  width: 1145px;
+  height: 434px;
+  display: flex;
+  justify-content:space-between ;
+  align-items: center;
+}
 
 #card{
-    margin: 50px;
-    padding: 15px;
+  height: 370px;
+  width: 300px;
+  margin-left: 30px;
+  border: 1px solid black;
 }
 
-#information {
-    text-align: right;
+#boton{
+  background-color: chocolate;
+  border-color: chocolate;
+  font-size: 20px;
 }
 
-.card-container {
-    margin: 50px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
+.sinopsis{
+  margin-left: 20px;
 }
-  
-.card {
-    width: calc(22% - 0.5rem);
-  }
-  
-  .sinopsis {
-    margin: 50px;
-    width: calc(50% - 0.5rem);
-    text-align: justify;
-  }
 
-  .price {
-    margin: 10px;
-    text-align: center;
-  }
+#botonDetalle{
+  background-color: chocolate;
+  border-color: orange;
+  margin-right: 40px;
+  margin-bottom: 25px;
+}
 
-  .btn{
-    padding-bottom: 5px;
-    background-color: #eda011;
-    border-color: #eda035;
-
-  }
-
-
-  .d-flex{
-    position: fixed;
-  }
-  
-  
+#precio{
+  font-size: 25px;
+  text-align: center;
+  margin-right: 105px;
+  margin-bottom: 20px;
+}
